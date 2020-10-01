@@ -38,7 +38,7 @@
          with:
            directory: "./book_module6/_build/html"
            arguments: --assume-extension --disable-external --only_4xx
-           continue-on-error: true
+         continue-on-error: true
 
        # Push the book's HTML to github-pages
        - name: GitHub Pages action
